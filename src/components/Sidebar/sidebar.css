@@ -1,0 +1,48 @@
+.tab-nav {
+  padding: 20px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.tab-nav ul {
+  padding: 0;
+  margin: 0;
+  top: 0;
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-flow:row wrap;
+  box-sizing:border-box;
+}
+
+.tab-nav ul li {
+  flex:1;
+  box-sizing:border-box;
+  border:1px solid #167efb;
+  border-right:none;
+  text-align: center;
+}
+
+.tab-nav ul li a {
+  padding: 10px 5px;
+  display: block;
+  text-decoration: none;
+}
+
+.tab-nav ul li:first-child {
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  border-right:0;
+}
+
+.tab-nav ul li:last-child{
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  border-right:1px solid #167efb;
+}
+
+.tab-nav__selected {
+  background:  #167efb;
+  color: #fff;
+}

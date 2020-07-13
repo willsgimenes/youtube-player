@@ -1,0 +1,17 @@
+.search__container {
+  width: calc(100% - 20px);
+}
+
+.search__item {
+  width: 100%;
+  text-align: left;
+  color: #000;
+  padding: 0;
+  line-height: 1.5;
+  font-size: 1.2em;
+}
+
+.search__input {
+  width: 280px;
+  margin: 10px;
+}
